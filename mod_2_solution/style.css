@@ -1,0 +1,76 @@
+body {
+    font-family: lexend;
+}
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33%;
+        float: left;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,
+    .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+    }
+}
+header {
+    text-align: center;
+    font-size: 175%;
+    padding: 20px;
+    font-weight: bold;
+}
+* {
+    box-sizing: border-box;
+}
+.container-fluid {
+    margin: 20px;
+}
+.row {
+    width: 100%;
+}
+nav > div {
+    padding: 20px;
+}
+nav > div > div {
+    position: relative;
+    background-color: lightpink;
+}
+
+section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 125%;
+    font-weight: bold;
+}
+p {
+    font-size: 100%;
+    padding: 10px;
+}
+
+nav .card,
+section {
+    border: 1px solid black;
+}
+
+nav div:nth-child(1) section {
+    background-color: lightblue;
+}
+nav div:nth-child(2) section {
+    background-color: #059862;
+}
+nav div:nth-child(3) section {
+    background-color: brown;
+}
